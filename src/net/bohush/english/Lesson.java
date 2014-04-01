@@ -14,6 +14,7 @@ public class Lesson {
 	private boolean caseSensitive;
 	private boolean strongCheck;
 	private int lessonNumber;
+	private int tipUsed = 0;
 	
 	public void setCaseSensitive(boolean caseSensitive) {
 		this.caseSensitive = caseSensitive;
@@ -38,7 +39,15 @@ public class Lesson {
 	public int getNumberOfLines() {
 		return list.size();
 	}
+	
+	public int getNumberOfGuessedLines() {
+		return index;
+	}
 
+	public int getNumberOfUsedTips() {
+		return tipUsed;
+	}
+	
 	public Lesson(int lessonNumber, boolean caseSensitive, boolean strongCheck) throws FileNotFoundException {
 		String fileName = "data/" + lessonNumber + ".txt";
 		this.lessonNumber = lessonNumber;
@@ -64,12 +73,22 @@ public class Lesson {
 		numberOfErrors = 0;
 	}
 	
-	public String getValidLine() {
+	public String getTip() {
 		if(index >= list.size()) {
 			return null;
 		} else {
+			tipUsed++;
 			return list.get(index);
 		}
+	}
+	
+	public String getGuessedText() {
+		StringBuilder result = new StringBuilder();
+		for (int i = 0; i < index; i++) {
+			result.append(list.get(i));
+			result.append('\n');	
+		}
+		return result.toString();
 	}
 	
 	public boolean isFinish() {

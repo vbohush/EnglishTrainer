@@ -1,0 +1,14 @@
+1 - I need some hot coffee. I'm so cold!
+2 - I know. I think my feet are frozen.
+3 - Are you ready to order?
+1 - Yes, some coffee, please.
+2 - Tea with lemon for me please.
+3 - Cream and sugar with your coffee, sir?
+1 - Yes, please.
+3 - Just a minute.
+1 - What's the weather forecast for today?
+2 - Chance of snow and temperatures in the teens until Tuesday. Oh no! How can you stand Boston winters?
+1 - Good question. I bet you miss Vietnam. What's the weather like there now?
+2 - Around seventy degrees. It's warm in January, but it rains a lot.
+1 - Well, I prefer rain to snow and ice.
+3 - Here's your coffee and tea. I hope it warms you up.

@@ -30,7 +30,7 @@ public class English extends JApplet {
 	private JLabel jLabel4;
 
 	public English() throws FileNotFoundException {
-		lesson = new Lesson(1, true, false);
+		lesson = new Lesson(1, false, false);
 		setLayout(new BorderLayout());
 		JLabel jlblName = new JLabel(lesson.getLessonNumber() + ". " + lesson.getName());
 		jlblName.setFont(new Font("Monospaced", Font.BOLD, 20));

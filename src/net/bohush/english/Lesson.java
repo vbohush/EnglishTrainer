@@ -7,7 +7,8 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Lesson {
-	private ArrayList<String> list = new ArrayList<>();
+	private ArrayList<String> listEnglish = new ArrayList<>();
+	private ArrayList<String> listUkraine = new ArrayList<>();
 	private String name;
 	private int index = 0;
 	private int numberOfErrors = 0;
@@ -37,7 +38,7 @@ public class Lesson {
 	}
 	
 	public int getNumberOfLines() {
-		return list.size();
+		return listEnglish.size();
 	}
 	
 	public int getNumberOfGuessedLines() {
@@ -61,7 +62,8 @@ public class Lesson {
 			while(input.hasNextLine()) {
 				String nextLine = input.nextLine();
 				if (!nextLine.equals("")) {
-					list.add(nextLine);	
+					listEnglish.add(nextLine);
+					listUkraine.add(input.nextLine());
 				}				
 			}
 			input.close();
@@ -74,25 +76,28 @@ public class Lesson {
 	}
 	
 	public String getTip() {
-		if(index >= list.size()) {
+		if(index >= listEnglish.size()) {
 			return null;
 		} else {
 			tipUsed++;
-			return list.get(index);
+			return listEnglish.get(index);
 		}
 	}
 	
 	public String getGuessedText() {
 		StringBuilder result = new StringBuilder();
 		for (int i = 0; i < index; i++) {
-			result.append(list.get(i));
+			result.append(listEnglish.get(i));
 			result.append('\n');	
+		}
+		if(!isFinish()) {
+			result.append(listUkraine.get(index));
 		}
 		return result.toString();
 	}
 	
 	public boolean isFinish() {
-		if(index >= list.size()) {
+		if(index >= listEnglish.size()) {
 			return true;
 		} else {
 			return false;
@@ -113,7 +118,7 @@ public class Lesson {
 	
 	public boolean isValid(String nextLine) {
 		String str1 = nextLine;
-		String str2 = list.get(index);
+		String str2 = listEnglish.get(index);
 		if(!caseSensitive) {
 			str1 = str1.toLowerCase();
 			str2 = str2.toLowerCase();
@@ -134,7 +139,7 @@ public class Lesson {
 	@Override
 	public String toString() {
 		StringBuilder result = new StringBuilder();
-		for (String nextLine : list) {
+		for (String nextLine : listEnglish) {
 			result.append(nextLine);
 			result.append('\n');	
 		}

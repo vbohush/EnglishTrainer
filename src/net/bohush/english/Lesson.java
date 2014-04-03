@@ -2,7 +2,6 @@ package net.bohush.english;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.net.URL;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -54,9 +53,10 @@ public class Lesson {
 		this.lessonNumber = lessonNumber;
 		this.caseSensitive = caseSensitive;
 		this.strongCheck = strongCheck;
-		URL url = this.getClass().getResource(fileName);
+		/*URL url = this.getClass().getResource(fileName);
 		if(url != null) {
-			File file = new File(url.getFile());
+			File file = new File(url.getFile());*/
+			File file = new File(fileName);
 			Scanner input = new Scanner(file);
 			name = input.nextLine();
 			while(input.hasNextLine()) {
@@ -67,12 +67,13 @@ public class Lesson {
 				}				
 			}
 			input.close();
-		}
+		//}
 	}
 	
 	public void reset() {
 		index = 0;
 		numberOfErrors = 0;
+		tipUsed = 0;
 	}
 	
 	public String getTip() {
@@ -138,11 +139,6 @@ public class Lesson {
 	
 	@Override
 	public String toString() {
-		StringBuilder result = new StringBuilder();
-		for (String nextLine : listEnglish) {
-			result.append(nextLine);
-			result.append('\n');	
-		}
-		return result.toString();
+		return getLessonNumber() + ". " + getName();
 	}
 }

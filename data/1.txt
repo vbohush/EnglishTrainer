@@ -8,7 +8,7 @@ I'm fine, thanks. And you?
 Not bad. John, this is Andres, our new colleague.
 Непогано. Джон, це Андрес, наш новий колега.
 Oh, hi! Pleased to meet you.
-О, привіт. Приємно познайомитися.
+О, привіт! Приємно познайомитися.
 Nice to meet you, too.
 Мені теж дуже приємно.
 Andres is the new maintenance supervisor.
@@ -20,7 +20,7 @@ I'm from Mexico.
 Really?
 Невже?
 Yes. I'm from Mexico City.
-Так, я з Мехіко
+Так. я з Мехіко
 That's an interesting city. Well, it's nice meeting you, Andres. See you later.
 Інтересне місто. Ну, було приємно познайомитися, Андрес. До зустрічі.
 Bye.

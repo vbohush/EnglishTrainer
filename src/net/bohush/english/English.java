@@ -24,7 +24,7 @@ import javax.swing.SwingConstants;
 public class English extends JApplet {
 	private static final long serialVersionUID = 1L;
 	private JTextField jtfInputString = new JTextField("");
-	private int numberOfLessons = 3;
+	private int numberOfLessons = 4;
 	private int currentLesson = 0;
 	private Lesson[] lessons = new Lesson[numberOfLessons];
 	private JTextArea ftaText;

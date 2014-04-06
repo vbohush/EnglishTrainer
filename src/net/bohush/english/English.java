@@ -11,7 +11,6 @@ import java.io.FileNotFoundException;
 
 import javax.swing.JApplet;
 import javax.swing.JButton;
-import javax.swing.JCheckBox;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -20,6 +19,7 @@ import javax.swing.JPanel;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.SwingConstants;
+import javax.swing.border.EmptyBorder;
 
 public class English extends JApplet {
 	private static final long serialVersionUID = 1L;
@@ -36,14 +36,14 @@ public class English extends JApplet {
 	private JButton jbtnTip = new JButton("Get Tip");
 	private JButton jbtnReset = new JButton("Restart");
 	private JComboBox<Lesson> jcbLesson;
-	private JCheckBox jcbCaseSensitive = new JCheckBox("Case Sensitive", false);
-	private JCheckBox jcbStrongCheck = new JCheckBox("Strong Check", false);
 	
 	public English() throws FileNotFoundException {
+		JPanel jpMain = new JPanel(new BorderLayout(5, 5));
+		jpMain.setBorder(new EmptyBorder(5, 5, 5, 5));
 		for (int i = 0; i < lessons.length; i++) {
 			lessons[i] = new Lesson(i + 1, false, false);	
 		}			
-		setLayout(new BorderLayout());
+		
 		
 		jcbLesson = new JComboBox<>(lessons);
 		jcbLesson.addItemListener(new ItemListener() {			
@@ -51,47 +51,23 @@ public class English extends JApplet {
 			public void itemStateChanged(ItemEvent e) {
 				currentLesson = jcbLesson.getSelectedIndex();
 				restart();
-				lessons[currentLesson].setCaseSensitive(jcbCaseSensitive.isSelected());
-				lessons[currentLesson].setStrongCheck(jcbStrongCheck.isSelected());
 			}
 		});
 		jcbLesson.setSelectedItem(lessons[currentLesson]);
-		jcbLesson.setFont(new Font("Dialog", Font.PLAIN, 20));
-		JPanel jpLessonSelector = new JPanel(new GridLayout(1, 2));
-		jpLessonSelector.add(jcbLesson);
-		jcbCaseSensitive.setHorizontalAlignment(SwingConstants.CENTER);
-		jcbStrongCheck.setHorizontalAlignment(SwingConstants.CENTER);
-		JPanel jpCheckBox = new JPanel(new GridLayout(1, 2));
-		jpCheckBox.add(jcbCaseSensitive);
-		jpCheckBox.add(jcbStrongCheck);
-		jpLessonSelector.add(jpCheckBox);		
-		add(jpLessonSelector, BorderLayout.NORTH);
+		jcbLesson.setFont(new Font("Dialog", Font.BOLD, 16));
+		jpMain.add(jcbLesson, BorderLayout.NORTH);
 		
-		jcbCaseSensitive.addActionListener(new ActionListener() {			
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				lessons[currentLesson].setCaseSensitive(jcbCaseSensitive.isSelected());
-			}
-		});
-		
-		jcbStrongCheck.addActionListener(new ActionListener() {			
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				lessons[currentLesson].setStrongCheck(jcbStrongCheck.isSelected());
-			}
-		});
-		
-		ftaText = new JTextArea(lessons[currentLesson].getGuessedText(), lessons[currentLesson].getNumberOfLines(), 60);
+		ftaText = new JTextArea(lessons[currentLesson].getGuessedText(), 20, 60);
 		ftaText.setFont(new Font("Dialog", Font.PLAIN, 16));
 		ftaText.setEditable(false);
 		ftaText.setLineWrap(true);
 		ftaText.setWrapStyleWord(true);
-		add(ftaText, BorderLayout.CENTER);
+		jpMain.add(ftaText, BorderLayout.CENTER);
 		
-		JPanel jpAnswer = new JPanel(new BorderLayout(2, 2));
+		JPanel jpAnswer = new JPanel(new BorderLayout(5, 5));
 		jtfInputString.setFont(new Font("Dialog", Font.PLAIN, 16));
 		jpAnswer.add(jtfInputString, BorderLayout.CENTER);
-		JPanel jpControl = new JPanel(new GridLayout(1, 3, 2, 2));
+		JPanel jpControl = new JPanel(new GridLayout(1, 3, 5, 5));
 		Font buttonFont = new Font("Dialog", Font.BOLD, 12); 
 		jbtnOk.setFont(buttonFont);
 		jpControl.add(jbtnOk);		
@@ -106,7 +82,7 @@ public class English extends JApplet {
 		jLabel2 = new JLabel("Guessed Lines: " + lessons[currentLesson].getNumberOfGuessedLines());
 		jLabel3 = new JLabel("Errors: " + lessons[currentLesson].getNumberOfErrors());
 		jLabel4 = new JLabel("Used Tips: " + lessons[currentLesson].getNumberOfUsedTips());	
-		Font labelFont = new Font("Dialog", Font.PLAIN, 14); 
+		Font labelFont = new Font("Dialog", Font.BOLD, 14); 
 		jLabel1.setFont(labelFont);
 		jLabel2.setFont(labelFont);
 		jLabel3.setFont(labelFont);
@@ -121,9 +97,10 @@ public class English extends JApplet {
 		jpStatistic.add(jLabel4);
 		jpAnswer.add(jpStatistic, BorderLayout.NORTH);
 		
-		add(jpAnswer, BorderLayout.SOUTH);
+		jpMain.add(jpAnswer, BorderLayout.SOUTH);
 		jtfInputString.requestFocusInWindow();
 		
+		add(jpMain);
 		ActionListener actionListener = new ActionListener() {			
 			@Override
 			public void actionPerformed(ActionEvent e) {

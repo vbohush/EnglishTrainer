@@ -15,6 +15,8 @@ public class Lesson {
 	private boolean strongCheck;
 	private int lessonNumber;
 	private int tipUsed = 0;
+	private boolean isErrorLine = false;
+	private boolean isUsedTipLine = false;
 	
 	public void setCaseSensitive(boolean caseSensitive) {
 		this.caseSensitive = caseSensitive;
@@ -80,7 +82,10 @@ public class Lesson {
 		if(index >= listEnglish.size()) {
 			return null;
 		} else {
-			tipUsed++;
+			if(!isUsedTipLine) {
+				isUsedTipLine = true;
+				tipUsed++;
+			}			
 			return listEnglish.get(index);
 		}
 	}
@@ -130,9 +135,14 @@ public class Lesson {
 		}
 		if(str1.equals(str2)) {
 			index++;
+			isErrorLine = false;
+			isUsedTipLine = false;
 			return true;
 		} else {
-			numberOfErrors++;
+			if(!isErrorLine) {
+				numberOfErrors++;
+				isErrorLine = true;
+			}
 			return false;
 		}
 	}

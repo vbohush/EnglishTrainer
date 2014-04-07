@@ -24,7 +24,7 @@ import javax.swing.border.EmptyBorder;
 public class English extends JApplet {
 	private static final long serialVersionUID = 1L;
 	private JTextField jtfInputString = new JTextField("");
-	private int numberOfLessons = 5;
+	private int numberOfLessons = 6;
 	private int currentLesson = 0;
 	private Lesson[] lessons = new Lesson[numberOfLessons];
 	private JTextArea ftaText;
@@ -41,7 +41,7 @@ public class English extends JApplet {
 		JPanel jpMain = new JPanel(new BorderLayout(5, 5));
 		jpMain.setBorder(new EmptyBorder(5, 5, 5, 5));
 		for (int i = 0; i < lessons.length; i++) {
-			lessons[i] = new Lesson(i + 1, false, false);	
+			lessons[i] = new Lesson(i + 1);	
 		}			
 		
 		

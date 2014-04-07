@@ -50,6 +50,10 @@ public class Lesson {
 		return tipUsed;
 	}
 	
+	public Lesson(int lessonNumber) throws FileNotFoundException {
+		this(lessonNumber, false, false);
+	}
+	
 	public Lesson(int lessonNumber, boolean caseSensitive, boolean strongCheck) throws FileNotFoundException {
 		String fileName = "data/" + lessonNumber + ".txt";
 		this.lessonNumber = lessonNumber;
@@ -59,7 +63,7 @@ public class Lesson {
 		if(url != null) {
 			File file = new File(url.getFile());*/
 			File file = new File(fileName);
-			Scanner input = new Scanner(file);
+			Scanner input = new Scanner(file, "UTF8");
 			name = input.nextLine();
 			while(input.hasNextLine()) {
 				String nextLine = input.nextLine();

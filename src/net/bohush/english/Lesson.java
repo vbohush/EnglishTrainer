@@ -1,13 +1,10 @@
 package net.bohush.english;
 
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Lesson {
-	private ArrayList<String> listEnglish = new ArrayList<>();
-	private ArrayList<String> listUkraine = new ArrayList<>();
+	private ArrayList<String> list = new ArrayList<String>();
 	private String name;
 	private int index = 0;
 	private int numberOfErrors = 0;
@@ -15,6 +12,7 @@ public class Lesson {
 	private boolean strongCheck;
 	private int lessonNumber;
 	private int tipUsed = 0;
+	private int skipped = 0;
 	private boolean isErrorLine = false;
 	private boolean isUsedTipLine = false;
 	
@@ -39,7 +37,11 @@ public class Lesson {
 	}
 	
 	public int getNumberOfLines() {
-		return listEnglish.size();
+		return list.size();
+	}
+	
+	public int getNumberOfSkippedLines() {
+		return skipped;
 	}
 	
 	public int getNumberOfGuessedLines() {
@@ -50,64 +52,58 @@ public class Lesson {
 		return tipUsed;
 	}
 	
-	public Lesson(int lessonNumber) throws FileNotFoundException {
+	public Lesson(int lessonNumber) {
 		this(lessonNumber, false, false);
 	}
 	
-	public Lesson(int lessonNumber, boolean caseSensitive, boolean strongCheck) throws FileNotFoundException {
-		String fileName = "data/" + lessonNumber + ".txt";
-		this.lessonNumber = lessonNumber;
+	public Lesson(int lessonNumber, boolean caseSensitive, boolean strongCheck) {
+		this.lessonNumber = lessonNumber + 1;
 		this.caseSensitive = caseSensitive;
 		this.strongCheck = strongCheck;
-		/*URL url = this.getClass().getResource(fileName);
-		if(url != null) {
-			File file = new File(url.getFile());*/
-			File file = new File(fileName);
-			Scanner input = new Scanner(file, "UTF8");
-			name = input.nextLine();
-			while(input.hasNextLine()) {
-				String nextLine = input.nextLine();
-				if (!nextLine.equals("")) {
-					listEnglish.add(nextLine);
-					listUkraine.add(input.nextLine());
-				}				
-			}
-			input.close();
-		//}
+		String text = Data.getLessonText(lessonNumber);
+		Scanner input = new Scanner(text);
+		name = input.nextLine();
+		while(input.hasNextLine()) {
+			String nextLine = input.nextLine();
+			if (!nextLine.equals("")) {
+				list.add(nextLine);
+			}				
+		}
+		input.close();
 	}
 	
 	public void reset() {
 		index = 0;
 		numberOfErrors = 0;
 		tipUsed = 0;
+		skipped = 0;
 	}
 	
 	public String getTip() {
-		if(index >= listEnglish.size()) {
+		if(index >= list.size()) {
 			return null;
 		} else {
 			if(!isUsedTipLine) {
 				isUsedTipLine = true;
 				tipUsed++;
-			}			
-			return listEnglish.get(index);
+			}
+			String strTip = list.get(index);
+			strTip = strTip.substring(strTip.indexOf(":") + 2, strTip.length());
+			return strTip;
 		}
 	}
 	
 	public String getGuessedText() {
 		StringBuilder result = new StringBuilder();
 		for (int i = 0; i < index; i++) {
-			result.append(listEnglish.get(i));
+			result.append(list.get(i));
 			result.append('\n');	
-		}
-		if(!isFinish()) {
-			result.append(listUkraine.get(index));
 		}
 		return result.toString();
 	}
 	
 	public boolean isFinish() {
-		if(index >= listEnglish.size()) {
+		if(index >= list.size()) {
 			return true;
 		} else {
 			return false;
@@ -128,7 +124,8 @@ public class Lesson {
 	
 	public boolean isValid(String nextLine) {
 		String str1 = nextLine;
-		String str2 = listEnglish.get(index);
+		String str2 = list.get(index);
+		str2 = str2.substring(str2.indexOf(":") + 2, str2.length());
 		if(!caseSensitive) {
 			str1 = str1.toLowerCase();
 			str2 = str2.toLowerCase();
@@ -149,6 +146,13 @@ public class Lesson {
 			}
 			return false;
 		}
+	}
+	
+	public void skip() {
+		index++;
+		skipped++;
+		isErrorLine = false;
+		isUsedTipLine = false;
 	}
 	
 	@Override

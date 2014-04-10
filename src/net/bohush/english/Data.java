@@ -118,7 +118,7 @@ public class Data {
 			 + "Diana:	You're not an early riser, are you? \n"
 			 + "Steven:	Not exactly. But you obviously are. \n"
 			 + "Diana:	Well, to me it's worth it to go jogging in Central Park. It's so peaceful. \n"
-			 + "Steven:	So, would you like to join me for a cup of coffee?	I know this cozy little coffee shop on the corner of Bleecker and MacDougal. \n"
+			 + "Steven:	So, would you like to join me for a cup of coffee? I know this cozy little coffee shop on the corner of Bleecker and MacDougal. \n"
 			 + "Diana:	That sounds nice. \n"
 			 + "Steven:	Great! See you there in thirty minutes? \n"
 			 + "Diana:	OK! See you there!\n",

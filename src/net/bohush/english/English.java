@@ -7,7 +7,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
-import java.io.FileNotFoundException;
 
 import javax.swing.JApplet;
 import javax.swing.JButton;
@@ -39,7 +38,7 @@ public class English extends JApplet {
 	private JButton jbtnReset = new JButton("Restart");
 	private JComboBox<Lesson> jcbLesson;
 	
-	public English() throws FileNotFoundException {
+	public English() {
 		JPanel jpBorder = new JPanel(new BorderLayout(5, 5));
 		jpBorder.setBorder(new TitledBorder("English Trainer"));
 		JPanel jpMain = new JPanel(new BorderLayout(5, 5));
@@ -190,7 +189,7 @@ public class English extends JApplet {
 		jtfInputString.requestFocus();
 	}
 
-	public static void main(String[] args) throws FileNotFoundException {
+	public static void main(String[] args) {
 		JFrame frame = new JFrame("English Trainer");
 		JApplet applet = new English();
 		frame.add(applet);

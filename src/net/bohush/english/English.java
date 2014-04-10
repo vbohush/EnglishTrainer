@@ -30,8 +30,6 @@ public class English extends JApplet {
 	private JLabel jLabel1;
 	private JLabel jLabel2;
 	private JLabel jLabel3;
-	private JLabel jLabel4;
-	private JLabel jLabel5;
 	private JButton jbtnOk = new JButton("Ok");
 	private JButton jbtnSkip = new JButton("Skip");
 	private JButton jbtnTip = new JButton("Get Tip");
@@ -81,28 +79,20 @@ public class English extends JApplet {
 		jpControl.add(jbtnReset);
 		jpAnswer.add(jpControl, BorderLayout.EAST);
 		
-		JPanel jpStatistic = new JPanel(new GridLayout(1, 5, 5, 5));
+		JPanel jpStatistic = new JPanel(new GridLayout(1, 3, 5, 5));
 		jLabel1 = new JLabel("Total Lines: " + lessons[currentLesson].getNumberOfLines());
-		jLabel2 = new JLabel("Guessed Lines: " + lessons[currentLesson].getNumberOfGuessedLines());
-		jLabel3 = new JLabel("Errors: " + lessons[currentLesson].getNumberOfErrors());
-		jLabel4 = new JLabel("Used Tips: " + lessons[currentLesson].getNumberOfUsedTips());
-		jLabel5 = new JLabel("Skipped: " + lessons[currentLesson].getNumberOfSkippedLines());
+		jLabel2 = new JLabel("Finished Lines: " + lessons[currentLesson].getNumberOfGuessedLines());
+		jLabel3 = new JLabel("Correct Lines: " + lessons[currentLesson].getNumberOfCorrectLines());
 		Font labelFont = new Font("Dialog", Font.BOLD, 14); 
 		jLabel1.setFont(labelFont);
 		jLabel2.setFont(labelFont);
 		jLabel3.setFont(labelFont);
-		jLabel4.setFont(labelFont);
-		jLabel5.setFont(labelFont);
 		jLabel1.setHorizontalAlignment(SwingConstants.CENTER);
 		jLabel2.setHorizontalAlignment(SwingConstants.CENTER);
 		jLabel3.setHorizontalAlignment(SwingConstants.CENTER);
-		jLabel4.setHorizontalAlignment(SwingConstants.CENTER);
-		jLabel5.setHorizontalAlignment(SwingConstants.CENTER);
 		jpStatistic.add(jLabel1);
 		jpStatistic.add(jLabel2);
 		jpStatistic.add(jLabel3);
-		jpStatistic.add(jLabel4);
-		jpStatistic.add(jLabel5);
 		jpAnswer.add(jpStatistic, BorderLayout.NORTH);
 		
 		jpMain.add(jpAnswer, BorderLayout.SOUTH);
@@ -125,10 +115,8 @@ public class English extends JApplet {
 				}
 				jtfInputString.requestFocus();
 				jLabel1.setText("Total lines: " + lessons[currentLesson].getNumberOfLines());
-				jLabel2.setText("Guessed lines: " + lessons[currentLesson].getNumberOfGuessedLines());
-				jLabel3.setText("Errors: " + lessons[currentLesson].getNumberOfErrors());
-				jLabel4.setText("Used Tips: " + lessons[currentLesson].getNumberOfUsedTips());
-				jLabel5.setText("Skipped: " + lessons[currentLesson].getNumberOfSkippedLines());
+				jLabel2.setText("Finished lines: " + lessons[currentLesson].getNumberOfGuessedLines());
+				jLabel3.setText("Correct Lines: " + lessons[currentLesson].getNumberOfCorrectLines());
 			}
 		};
 		
@@ -146,10 +134,8 @@ public class English extends JApplet {
 				}
 				jtfInputString.requestFocus();
 				jLabel1.setText("Total lines: " + lessons[currentLesson].getNumberOfLines());
-				jLabel2.setText("Guessed lines: " + lessons[currentLesson].getNumberOfGuessedLines());
-				jLabel3.setText("Errors: " + lessons[currentLesson].getNumberOfErrors());
-				jLabel4.setText("Used Tips: " + lessons[currentLesson].getNumberOfUsedTips());
-				jLabel5.setText("Skipped: " + lessons[currentLesson].getNumberOfSkippedLines());
+				jLabel2.setText("Finished lines: " + lessons[currentLesson].getNumberOfGuessedLines());
+				jLabel3.setText("Correct Lines: " + lessons[currentLesson].getNumberOfCorrectLines());
 			}
 		});
 		
@@ -160,7 +146,6 @@ public class English extends JApplet {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				JOptionPane.showMessageDialog(null, lessons[currentLesson].getTip(), "Tip", JOptionPane.INFORMATION_MESSAGE);
-				jLabel4.setText("Used Tips: " + lessons[currentLesson].getNumberOfUsedTips());
 				jtfInputString.requestFocus();
 			}
 		});
@@ -176,10 +161,8 @@ public class English extends JApplet {
 	private void restart() {
 		lessons[currentLesson].reset();
 		jLabel1.setText("Total lines: " + lessons[currentLesson].getNumberOfLines());
-		jLabel2.setText("Guessed lines: " + lessons[currentLesson].getNumberOfGuessedLines());
-		jLabel3.setText("Errors: " + lessons[currentLesson].getNumberOfErrors());
-		jLabel4.setText("Used Tips: " + lessons[currentLesson].getNumberOfUsedTips());
-		jLabel5.setText("Skipped: " + lessons[currentLesson].getNumberOfSkippedLines());
+		jLabel2.setText("Finished lines: " + lessons[currentLesson].getNumberOfGuessedLines());
+		jLabel3.setText("Correct Lines: " + lessons[currentLesson].getNumberOfCorrectLines());
 		ftaText.setText(lessons[currentLesson].getGuessedText());
 		jtfInputString.setText("");
 		jtfInputString.setEditable(true);

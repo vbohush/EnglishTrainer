@@ -1,75 +1,75 @@
 ﻿Introductions
 John:	Hi, Teresa.
 Teresa:	Good morning John. How are you?
-John:	I’m fine thanks. And you?
+John:	I'm fine thanks. And you?
 Teresa:	Not bad. John, this is Andres, our new colleague.
 John:	Oh hi! Pleased to meet you!
 Andres:	Nice to meet you, too.
 Teresa:	Andres is the new maintenance supervisor.
 John:	I see. Welcome aboard.
 John:	Where are you from?
-Andres:	I’m from Mexico.
+Andres:	I'm from Mexico.
 John:	Really?
-Andres:	Yes. I’m from Mexico City.
-John:	That’s an interesting city. Well, it’s nice meeting you, Andres. See you later.
+Andres:	Yes. I'm from Mexico City.
+John:	That's an interesting city. Well, it's nice meeting you, Andres. See you later.
 Teresa:	Bye.
 Andres:	Bye.
 
 Family relationship
 Peter:	Hello!
 Linda:	Hi Peter, come on in.
-Peter:	Thanks. Where’s everyone else?
+Peter:	Thanks. Where's everyone else?
 Linda:	My sister and her husband are in the kitchen. Two or three other people are in the kitchen, too.
 Peter:	This is a very nice apartment.
 Linda:	Thanks. My parents own it.
 Peter:	I see. Is this a picture of your parents over here?
 Linda:	Yes, this is my entire family.
-Peter:	Who’s who?
+Peter:	Who's who?
 Linda:	Well, these are my parents, Linda and Joseph.
-Peter:	And who’s this?
-Linda:	This is my brother Thomas. I also have a sister but she’s not in the picture. She’s here tonight.
-Peter:	And who’s the little girl?
-Linda:	Well, that’s me, of course.
+Peter:	And who's this?
+Linda:	This is my brother Thomas. I also have a sister but she's not in the picture. She's here tonight.
+Peter:	And who's the little girl?
+Linda:	Well, that's me, of course.
 Peter:	Really? You still have the same beautiful smile!
 Linda:	What a sweet thing to say!
-Peter:	Well, that’s the kind of guy I am.
+Peter:	Well, that's the kind of guy I am.
 
 Asking for information
 Chin:	Mom, where are my blue pants?
 Mother:	Check in your room.
-Chin:	No, they’re not there.
+Chin:	No, they're not there.
 Mother:	Then look on the ironing board.
 Chin:	OK. Here they are! Mom!
 Mother:	Yes, Chin, what is it now?
-Chin:	Sorry, but I can’t find my sneakers.
-Mother:	I’m sure you know where they are. Just think for a minute.
-Chin:	Oh! Now I see them. I guess you’re right.
-Mother:	Of course I am. I’m your mother.
+Chin:	Sorry, but I can't find my sneakers.
+Mother:	I'm sure you know where they are. Just think for a minute.
+Chin:	Oh! Now I see them. I guess you're right.
+Mother:	Of course I am. I'm your mother.
 Chin:	Well, then tell me where my car keys are.
 Mother:	How about in your coat pocket?
 Chin:	No!
-Mother:	Maybe they’re in your gym bag.
-Chin:	Great! They’re here. Thanks, Mom. See you later!
-Mother:	Bye! Someday he’s going to lose his head!
+Mother:	Maybe they're in your gym bag.
+Chin:	Great! They're here. Thanks, Mom. See you later!
+Mother:	Bye! Someday he's going to lose his head!
 
 Clothing, colors and size
 Sharon:	Oh I love the clothes in this store, but they cost way too much.
-Pat:	I know but I need a dress for Robin and Mike’s wedding. What do you think of this one?
+Pat:	I know but I need a dress for Robin and Mike's wedding. What do you think of this one?
 Sharon:	Now, that is gorgeous, and you look great in blue.
 Pat:	But I like this red one, too.
 Sharon:	Well, try both of them on.
 Pat:	Is there a size ten in blue?
-Sharon:	Yes, right here.  The fitting rooms are around the corner, by the children’s department.
+Sharon:	Yes, right here.  The fitting rooms are around the corner, by the children's department.
 Sharon:	I like the blue.
-Pat:	And it’s comfortable too. Is it too short, though?
+Pat:	And it's comfortable too. Is it too short, though?
 Sharon:	No. You look beautiful, really.
 Pat:	Thanks. Excuse me, how much is this dress?
-Clerk:	You’re lucky. All women’s fashions are on sale today. Let’s see… this dress is twenty five percent off.
-Pat:	I’m convinced. I even have shoes to match.
-Sharon:	That’s reason enough right there.
+Clerk:	You're lucky. All women's fashions are on sale today. Let's see... this dress is twenty five percent off.
+Pat:	I'm convinced. I even have shoes to match.
+Sharon:	That's reason enough right there.
 
 The weather, seasons, months and days
-Jim:	I need some hot coffee. I’m so cold!
+Jim:	I need some hot coffee. I'm so cold!
 An:	I know. I think my feet are frozen.
 Waitress:	Are you ready to order?
 Jim:	Yes, some coffee, please.
@@ -77,27 +77,27 @@ An:	Tea with lemon for me, please.
 Waitress:	Cream and sugar with your coffee, sir?
 Jim:	Yes, please.
 Waitress:	Just a minute.
-Jim:	What’s the weather forecast for today?
+Jim:	What's the weather forecast for today?
 An:	Chance of snow and temperatures in the teens until Tuesday. Oh, no! How can you stand Boston winters?
-Jim:	Good question. I bet you miss Vietnam.	What’s the weather like there now?
-An:	Around seventy degrees. It’s warm in January, but it rains a lot.
+Jim:	Good question. I bet you miss Vietnam.	What's the weather like there now?
+An:	Around seventy degrees. It's warm in January, but it rains a lot.
 Jim:	Well, I prefer rain to snow and ice.
-Waitress:	Here’s your coffee and tea. I hope it warms you up!  
+Waitress:	Here's your coffee and tea. I hope it warms you up!  
 
 Time
 Antonio:	Well, finally.
-Jean:	Hi, I’m sorry I’m late.
+Jean:	Hi, I'm sorry I'm late.
 Antonio:	You were supposed to be here at seven. Where were you? I was worried.
-Jean:	I’m sorry, but the bus was twenty minutes late.
-Antonio:	I understand, but now we’re late for the seven-fifteen show.
+Jean:	I'm sorry, but the bus was twenty minutes late.
+Antonio:	I understand, but now we're late for the seven-fifteen show.
 Jean:	Sorry!
-Antonio:	That’s OK. The next show starts at nine-thirty.
+Antonio:	That's OK. The next show starts at nine-thirty.
 Jean:	What time is it now?
-Antonio:	No watch! No wonder you’re always late! It’s twenty to eight.
+Antonio:	No watch! No wonder you're always late! It's twenty to eight.
 Jean:	Well, we have almost two hours to kill. How about dinner before the movie? Are you hungry?
 Antonio:	Now that you mention it, yes.
 Jean:	How about pizza?
-Antonio:	I’d rather have Mexican food.
+Antonio:	I'd rather have Mexican food.
 Jean:	Fine, my treat.
 Antonio:	I like that. You can be late more often.
 
@@ -106,53 +106,53 @@ Diana:	Steven, good morning.
 Steven:	Diana! What a surprise! 
 Diana:	Do you jog here every morning? 
 Steven:	Yes. Well, I try to, anyway. How about you? 
-Diana:	I jog every day, but I don’t always come here. 
+Diana:	I jog every day, but I don't always come here. 
 Steven:	Where do you usually go? 
 Diana:	I go to Central Park pretty often. 
-Steven:	Wow, that’s quite far. What time do you get up? 
+Steven:	Wow, that's quite far. What time do you get up? 
 Diana:	Usually between six and six-fifteen. 
-Steven:	That’s awfully early for me!
-Diana:	You’re not an early riser, are you? 
+Steven:	That's awfully early for me!
+Diana:	You're not an early riser, are you? 
 Steven:	Not exactly. But you obviously are. 
-Diana:	Well, to me it’s worth it to go jogging in Central Park. It’s so peaceful. 
+Diana:	Well, to me it's worth it to go jogging in Central Park. It's so peaceful. 
 Steven:	So, would you like to join me for a cup of coffee?	I know this cozy little coffee shop on the corner of Bleecker and MacDougal. 
 Diana:	That sounds nice. 
 Steven:	Great! See you there in thirty minutes? 
 Diana:	OK! See you there!
 
 Ongoing activities
-Camille:	Fabiola, Rick… What are you guys doing here?
+Camille:	Fabiola, Rick... What are you guys doing here?
 Fabiola:	Camille, what a surprise!
-Rick:	Hi. We’re going to the mall. How about you?
-Camille:	I’m going to the hardware store. I need to buy some paint, rollers, and brushes.
+Rick:	Hi. We're going to the mall. How about you?
+Camille:	I'm going to the hardware store. I need to buy some paint, rollers, and brushes.
 Fabiola:	Why is that?
-Camille:	Well, because I’m renovating my kitchen and my bathroom.
+Camille:	Well, because I'm renovating my kitchen and my bathroom.
 Rick:	How is it coming along?
-Camille:	So far so good. I’m painting the kitchen tonight.
+Camille:	So far so good. I'm painting the kitchen tonight.
 Rick:	Is your husband helping you?
 Camille:	Oh, yeah, he likes to work around the house.
-Fabiola:	That’s great. Listen, do you want to help us paint our kitchen and bathroom?
-Camille:	I don’t think so. But you are welcome to borrow our equipment.
-Rick:	Thanks, but I can’t imagine Fabiola painting the walls.
-Fabiola:	Look who’s talking. You’re not so crazy about do-it-yourself projects, either.
-Rick:	Yes, I am. I’m just too busy.
+Fabiola:	That's great. Listen, do you want to help us paint our kitchen and bathroom?
+Camille:	I don't think so. But you are welcome to borrow our equipment.
+Rick:	Thanks, but I can't imagine Fabiola painting the walls.
+Fabiola:	Look who's talking. You're not so crazy about do-it-yourself projects, either.
+Rick:	Yes, I am. I'm just too busy.
 Fabiola:	Oh, sure.
 
 Sports
 Jose:	Hey Dave, can you take me to the train station?
 David:	Sure, but I have practice in thirty minutes.
-Jose:	I’m ready. Let’s go. So, how is practice going?
-David:	Well, it’s tough. We have to build endurance to run with the ball, tackle and take hits.
-Jose:	But isn’t the most important thing to kick the ball?
-David:	We may be talking about two different sports. I play what we call ‘football’ here in the United States, not soccer.
+Jose:	I'm ready. Let's go. So, how is practice going?
+David:	Well, it's tough. We have to build endurance to run with the ball, tackle and take hits.
+Jose:	But isn't the most important thing to kick the ball?
+David:	We may be talking about two different sports. I play what we call 'football' here in the United States, not soccer.
 Jose:	Oh!
-David:	We don’t kick the ball very much. We have to carry it with our hands.
+David:	We don't kick the ball very much. We have to carry it with our hands.
 Jose:	I see.
 David:	How about you? Are you playing any sports?
-Jose:	I might try baseball next semester, but I don’t know how to play.
-David:	There’s nothing you can’t learn.
-Jose:	I hope you’re right. Oh, here we are. Thank you!
-David:	You’re welcome!
+Jose:	I might try baseball next semester, but I don't know how to play.
+David:	There's nothing you can't learn.
+Jose:	I hope you're right. Oh, here we are. Thank you!
+David:	You're welcome!
 
 Likes and dislikes
 Sean:	This seems like a nice place.
@@ -160,19 +160,19 @@ Carol:	I hope the food is good.
 Waitress:	Good evening! How are you tonight?
 Sean:	Fine, thanks. 
 Waitress:	Our specials tonight are a beef casserole with mushrooms for ten ninety-five and a fresh salmon in garlic sauce for twelve ninety-five. Would you like something to drink first?
-Sean:	Yes, please. We’d like a bottle of dry white wine.
+Sean:	Yes, please. We'd like a bottle of dry white wine.
 Waitress:	Is a Chardonnay OK?
 Sean:	Yes, that sounds good.
 Waitress:	Do you need a minute to look at the menus?
 Sean:	Yes, please.
-Waitress:	OK. I’ll be right back with your wine.
+Waitress:	OK. I'll be right back with your wine.
 Sean:	Do you know what you want?
-Carol:	No, I’m not quite sure yet. What about you?
+Carol:	No, I'm not quite sure yet. What about you?
 Sean:	The fish special sounds great.
 Waitress:	Here is your wine. What can I get you to eat?
-Sean:	I’d like the salmon special.
-Waitress:	And you, ma’am?
-Carol:	I’d like the grilled chicken breast and a large spinach salad to start.
+Sean:	I'd like the salmon special.
+Waitress:	And you, ma'am?
+Carol:	I'd like the grilled chicken breast and a large spinach salad to start.
 Waitress:	Good choice. The chicken is delicious! Anything else?
 Carol:	Not at the moment, thanks.
 
@@ -181,31 +181,31 @@ Patient:	Hi, this is Carlo Pirelli calling. I need to see the doctor immediately
 Receptionist:	Is this an emergency?
 Patient:	Yes, I have a terrible stomachache and a fever.
 Receptionist:	Is this your first time in this office? 
-Patient:	No, I’m a regular patient.
+Patient:	No, I'm a regular patient.
 Receptionist:	Go ahead and come in right away.
 Patient:	Hi, my name is Carlo Pirelli.
 Receptionist:	Yes. Take a seat right here for a moment.
 Nurse:	Hello. Let me take your temperature and blood pressure.
 Patient:	Sure.
 Nurse:	Well, your temperature is a little high, but your blood pressure is perfect for your age.
-Patient:	That’s good to hear.
+Patient:	That's good to hear.
 Nurse:	The doctor will be right in.
 Patient:	Thanks.
-Doctor:	Mister Pirelli, I hear you’re in pain.
+Doctor:	Mister Pirelli, I hear you're in pain.
 Patient:	Yes. I have a stomachache and I feel a little dizzy.
 Doctor:	Does it hurt if I press here?
 Patient:	Yes.
-Doctor:	Take a deep breath. It doesn’t seem to be anything serious. You probably just have the flu. There’s a virus going around. Don’t worry about it.
-Patient:	So, there’s nothing I can do?
-Doctor:	Go home, rest and drink lots of fluids. If you don’t feel better in a couple of days, come back to see me.
+Doctor:	Take a deep breath. It doesn't seem to be anything serious. You probably just have the flu. There's a virus going around. Don't worry about it.
+Patient:	So, there's nothing I can do?
+Doctor:	Go home, rest and drink lots of fluids. If you don't feel better in a couple of days, come back to see me.
 Patient:	Thanks.
 
 Banking
 Clerk:	How can I help you today?
 Mario:	We need to open a checking account.
-Clerk:	Well, there are two options. First, our standard checking account has no minimum balance requirement, but there’s a monthly service fee of ten dollars.
+Clerk:	Well, there are two options. First, our standard checking account has no minimum balance requirement, but there's a monthly service fee of ten dollars.
 Laura:	What about the other option? 
-Clerk:	Our golden checking account has a minimum balance requirement of one thousand dollars, but there’s no monthly service fee. Money orders and traveler’s checks are free as well.
+Clerk:	Our golden checking account has a minimum balance requirement of one thousand dollars, but there's no monthly service fee. Money orders and traveler's checks are free as well.
 Mario:	Which choice would you prefer?
 Laura:	A ten dollar service fee is a lot of money, but I think we should take the standard checking account anyway.
 Mario:	I agree.
@@ -220,16 +220,16 @@ Clerk:	Certainly.
 Shopping for food
 Tom:	How about chicken for dinner tonight?
 Kathy:	Sounds good. Do you have the shopping list?
-Tom:	No, I don’t. 
-Kathy:	I don’t either. It’s probably at home on the kitchen counter. 
+Tom:	No, I don't. 
+Kathy:	I don't either. It's probably at home on the kitchen counter. 
 Tom:	Great! Do you have any idea what we need? 
 Kathy:	Well, the chicken and something to serve on the side.
 Tom:	How about vegetables and rice?
-Kathy:	Fine. I’ll get some carrots and a package of rice.
-Tom:	I think we’re out of milk. I’ll get some.
-Kathy:	Oh. And let’s get some eggs for tomorrow morning.
-Tom:	You’re not supposed to eat so many eggs. It’s not good for you.
-Kathy:	Look who’s talking. With your usual diet of meat and potatoes, you’re a real health nut.
+Kathy:	Fine. I'll get some carrots and a package of rice.
+Tom:	I think we're out of milk. I'll get some.
+Kathy:	Oh. And let's get some eggs for tomorrow morning.
+Tom:	You're not supposed to eat so many eggs. It's not good for you.
+Kathy:	Look who's talking. With your usual diet of meat and potatoes, you're a real health nut.
 Cashier:	Your total is twenty three eighty three.
 Kathy:	Here you go.
 Cashier:	Out of thirty. Six dollars and seventeen cents is your change.
@@ -248,10 +248,10 @@ Lady:	It has one bedroom, a living area, a kitchen, and a small den. The den use
 Mark:	Does it get any light?
 Lady:	Oh, yes. The apartment faces south.
 Mark:	How much is the rent?
-Lady:	Nine fifty a month plus one month’s rent as a security deposit.
+Lady:	Nine fifty a month plus one month's rent as a security deposit.
 Mark:	One last question. Why did the last tenant leave?
 Lady:	His company offered him a job in New York. He moved to the east coast last month.
-Mark:	That’s where I’m from. I just moved here a week ago.
+Mark:	That's where I'm from. I just moved here a week ago.
 Lady:	What a coincidence!
 Mark:	Yes. Can I see the apartment?
 Lady:	Sure. How about tomorrow at four thirty?
@@ -260,16 +260,16 @@ Mark:	That sounds great. See you then.
 Moving to another city
 Ana:	Excuse me. Can I interrupt you?
 Jim:	Sure, what can I do for you?
-Ana:	I’m Ana, the new tenant in apartment six F. 
-Jim:	Oh right. Someone told me that we had a new neighbor. I’m Jim. 
-Ana:	Nice to meet you. I’m still somewhat unfamiliar with this area. I need to get to a pharmacy quickly. Is there one nearby? 
-Jim:	I’m sorry. I don’t know.
+Ana:	I'm Ana, the new tenant in apartment six F. 
+Jim:	Oh right. Someone told me that we had a new neighbor. I'm Jim. 
+Ana:	Nice to meet you. I'm still somewhat unfamiliar with this area. I need to get to a pharmacy quickly. Is there one nearby? 
+Jim:	I'm sorry. I don't know.
 Ana:	Well, thanks anyway. 
 Jim:	So, you just moved here?
-Ana:	That’s right, from the east coast.
+Ana:	That's right, from the east coast.
 Jim:	Oh really? I came here from Chicago ten years ago. How do you like the west coast so far?
 Ana:	A lot. I always wanted to live in Portland. So I took a chance and here I am.
-Jim:	Yes. It’s beautiful here. Well listen, if there’s anything I can do for you, just call.
+Jim:	Yes. It's beautiful here. Well listen, if there's anything I can do for you, just call.
 Ana:	OK, thanks!	
 
 Looking for a job
@@ -278,51 +278,51 @@ Susan:	Thank you.
 Director:	After you finished school you went to work for an insurance company. What were your duties there?
 Susan:	At first I assisted the vice president of corporate sales. I did most of his legwork for him and took care of all the administrative duties. 
 Director:	I see you were promoted twice. 
-Susan:	Yes, currently I’m the regional sales representative.
+Susan:	Yes, currently I'm the regional sales representative.
 Director:	May I ask why you want to leave your present employer after all this time?
 Susan:	 	The position you advertised offers me the opportunity to move into a managerial position. I believe this is the right step at this point in my career. 
-Director:	I see. You’re a very interesting candidate. I have to discuss your application with my colleagues. We’ll get back to you next week.  
+Director:	I see. You're a very interesting candidate. I have to discuss your application with my colleagues. We'll get back to you next week.  
 Susan:	Thank you very much.  
-Director:	You’re welcome.
+Director:	You're welcome.
 
 The holiday season
 Ingrid:	I just finished sending all my Christmas cards. And except for the sweater I want to give my husband, I even have all my gifts. 
 Bob:	Congratulations. This will be a very lonely holiday season for me.
 Ingrid:	I thought your brother and his wife were coming to visit you for Hanukkah.
-Bob:	No, I just spoke to them. They’re just too busy to travel this year.
-Ingrid:	Well, if you want to celebrate Christmas with us…
+Bob:	No, I just spoke to them. They're just too busy to travel this year.
+Ingrid:	Well, if you want to celebrate Christmas with us...
 Bob:	Are you doing the whole spiel?
-Ingrid:	Of course. Without a Christmas tree, Christmas carols, cookies, and presents under the tree, Christmas just isn’t the same for me.
-Bob:	But I don’t have any presents to give you.
-Ingrid:	Well, you still have time to shop until the twenty fifth. I’m just kidding. Presents or no presents, we’d love to have you. 
-Bob:	OK. Let’s do it. You can count me in.
+Ingrid:	Of course. Without a Christmas tree, Christmas carols, cookies, and presents under the tree, Christmas just isn't the same for me.
+Bob:	But I don't have any presents to give you.
+Ingrid:	Well, you still have time to shop until the twenty fifth. I'm just kidding. Presents or no presents, we'd love to have you. 
+Bob:	OK. Let's do it. You can count me in.
 
 Traveling
 Jane:	Hi, Monica, how are you?
-Monica:	I’m OK. I’m very busy at work these days.
-Jane:	Me too. I need a break. I can’t wait for my next vacation.
+Monica:	I'm OK. I'm very busy at work these days.
+Jane:	Me too. I need a break. I can't wait for my next vacation.
 Monica:	I have a week off next month. My husband and I are going to the Caribbean for seven days.
 Jane:	That sounds exciting! I heard they have beautiful beaches over there. Where exactly are you planning to go?
-Monica:	First, we’ll fly to Puerto Rico. Then, we’ll go to Barbados, Aruba, and Jamaica. We’re also going to take the boat between the islands.
-Jane:	But you won’t have time to relax with that itinerary.
-Monica:	Maybe not, but it’s going to be an adventure.
+Monica:	First, we'll fly to Puerto Rico. Then, we'll go to Barbados, Aruba, and Jamaica. We're also going to take the boat between the islands.
+Jane:	But you won't have time to relax with that itinerary.
+Monica:	Maybe not, but it's going to be an adventure.
 Jane:	Listen, I have to go now. Have a great time!
-Monica:	OK. I’ll send you a postcard.
+Monica:	OK. I'll send you a postcard.
 
 Hobbies
 Louise:	Hello, neighbor. Long time no see. You look great.
 John:	Well, I started exercising three times a week.
 Louise:	Good decision. I should take up regular exercise as well.
 John:	But you do all this gardening. With a lot of success, by the way. Your roses are beautiful this year. 
-Louise:	Thanks. I enjoy working in the garden so much, it doesn’t even feel like exercise. 
-John:	How’s your husband?  
-Louise:	Fine. He started redoing the rec-room this weekend. I hope all the hammering didn’t bother you.
-John:	Oh, not at all. Peter and I went hiking. We weren’t even around to feel disturbed.
-Louise:	Lucky you. It sure bothered me. I couldn’t get any reading done.
+Louise:	Thanks. I enjoy working in the garden so much, it doesn't even feel like exercise. 
+John:	How's your husband?  
+Louise:	Fine. He started redoing the rec-room this weekend. I hope all the hammering didn't bother you.
+John:	Oh, not at all. Peter and I went hiking. We weren't even around to feel disturbed.
+Louise:	Lucky you. It sure bothered me. I couldn't get any reading done.
 John:	Still into reading mysteries?
 Louise:	You bet.
-John:	Well, don’t let the bad guys get away!
-Louise:	I won’t. See you around.
+John:	Well, don't let the bad guys get away!
+Louise:	I won't. See you around.
 John:	Bye!
 
 American culture and television
@@ -330,11 +330,11 @@ Fred:	Hi, how was your weekend?
 John:	I planned to go to Vermont, but because of the weather, we decided to stay home.
 Mary:	Yes, the snow kept me home, too. I watched TV all weekend.
 John:	Did you have a chance to watch the documentary about the Amazon jungle? 
-Mary:	No, my husband didn’t want to. I was really disappointed. We ended up watching a movie instead. 
+Mary:	No, my husband didn't want to. I was really disappointed. We ended up watching a movie instead. 
 Fred:	Which movie did you see?
 Mary:	A rerun of a Hitchcock movie.
-Fred:	I love Hitchcock. I can’t get enough of his movies. Isn’t Psycho great?
-John:	You can’t convince me to watch a horror movie. I prefer to watch a sitcom or even a soap opera. Besides, I’d rather read.
+Fred:	I love Hitchcock. I can't get enough of his movies. Isn't Psycho great?
+John:	You can't convince me to watch a horror movie. I prefer to watch a sitcom or even a soap opera. Besides, I'd rather read.
 Fred:	I hate to break this up, but we have to get back to work.
 John:	If duty calls...
 
@@ -345,48 +345,48 @@ Clerk:	Sure. Anything else?
 Evelyn:	Yes. I also want a money order for two hundred dollars.
 Clerk:	OK. Please fill out these three forms and sign here. 
 Evelyn:	Fine.
-Clerk:	You are sending the money order within the United States, aren’t you?
-Evelyn:	No, it’s going to Argentina. 
+Clerk:	You are sending the money order within the United States, aren't you?
+Evelyn:	No, it's going to Argentina. 
 Clerk:	In that case, you need to fill out this form as well.
 Evelyn:	Another form?
 Clerk:	Yes, sorry. Can I help you with anything else?
-Evelyn:	Yes, you have passport applications, don’t you?
-Clerk:	Well, for that you’ll have to go stand in that line over there.
-Evelyn:	You’re kidding, aren’t you?
-Clerk:	No, unfortunately I’m not.
+Evelyn:	Yes, you have passport applications, don't you?
+Clerk:	Well, for that you'll have to go stand in that line over there.
+Evelyn:	You're kidding, aren't you?
+Clerk:	No, unfortunately I'm not.
 Evelyn:	How frustrating!
 Clerk:	I know it is. Sorry about that.
 
 Education
 Principal:	You just moved here two weeks ago?
-Mother:	Yes, we’re still trying to adjust to our new home.
+Mother:	Yes, we're still trying to adjust to our new home.
 Principal:	We will do what we can to help your son make the transition to his new school. I see he finished fifth grade as an honor student.
-Mother:	Yes, we’re very proud of him. We’re just worried that the curriculum is so different here that he will have trouble catching up. Can you recommend a tutor?
+Mother:	Yes, we're very proud of him. We're just worried that the curriculum is so different here that he will have trouble catching up. Can you recommend a tutor?
 Principal:	Sure.
-Mother:	We want to help him ourselves, but both my husband and I are working…
-Principal:	Don’t worry, your son may not have any trouble catching up by himself. And if necessary, we will set him up with a tutor. I myself will act as his advisor and watch his progress closely. Let’s talk to each other after the first week of classes.
+Mother:	We want to help him ourselves, but both my husband and I are working...
+Principal:	Don't worry, your son may not have any trouble catching up by himself. And if necessary, we will set him up with a tutor. I myself will act as his advisor and watch his progress closely. Let's talk to each other after the first week of classes.
 Mother:	Thanks. 
 
 Ceremonies
-Elsa:	The bride looked beautiful, didn’t she?
-Linda:	Yes, and so did the groom. He’s so handsome.
+Elsa:	The bride looked beautiful, didn't she?
+Linda:	Yes, and so did the groom. He's so handsome.
 Peter:	You think so?
 Linda:	Yes, I do.	
 Peter:	Hmm.
 Linda:	Jealous?
-Peter:	No, I have no reason to be. Soon we’ll get married ourselves. I’ll look very handsome and you’ll be a lovely bride.
+Peter:	No, I have no reason to be. Soon we'll get married ourselves. I'll look very handsome and you'll be a lovely bride.
 Elsa:	Oh, yes. Have you decided on a date for your wedding?
 Linda:	May twenty fifth.
-Elsa:	What’s the matter, Peter? You’re suddenly pale.
-Peter:	May twenty fifth. That’s… so soon.
+Elsa:	What's the matter, Peter? You're suddenly pale.
+Peter:	May twenty fifth. That's... so soon.
 Linda:	Hey, are you getting cold feet?
-Peter:	No, I just didn’t realize it would be so soon.
+Peter:	No, I just didn't realize it would be so soon.
 Linda:	Neither did I.
-Rick:	Hello. This is a joyous occasion. Don’t be so serious.
+Rick:	Hello. This is a joyous occasion. Don't be so serious.
 Elsa:	Linda and Peter are getting the jitters about their upcoming wedding.
 Rick:	Well, so did we before ours.
 Elsa:	Oh, did we?
-Rick:	Yes. But I’m glad I didn’t change my mind.
+Rick:	Yes. But I'm glad I didn't change my mind.
 
 Renting a car
 Mark:	Hello. I would like to rent a car for two days.
@@ -394,28 +394,28 @@ Agent:	OK. What kind of car did you have in mind?
 Mark:	The smallest and the cheapest one you have will do.
 Agent:	A sedan is the least expensive car we have. We have one that is very economical.
 Mark:	Sounds good.
-Agent:	May I see your driver’s license, please?
+Agent:	May I see your driver's license, please?
 Mark:	Sure, here you go. 
 Agent:	Thanks. Please fill out this form. Write your address, and sign your name at the bottom of the page. The price includes unlimited mileage and the mandatory collision insurance.
-Mark:	Oh, great! That’s better than I thought.
+Mark:	Oh, great! That's better than I thought.
 Agent:	Here are your keys.
 Mark:	Do I have to return the car to this location?
 Agent:	No, you can drop it off at any of our local branches.
 Mark:	Thanks.
-Agent:	You’re welcome. Drive safely and buckle up!
+Agent:	You're welcome. Drive safely and buckle up!
 
 Urban life
 Roger:	Carol, this is my sister Linda.
 Carol:	Nice to meet you. Roger talks about you all the time.
 Linda:	He does?
-Roger:	Don’t worry. I didn’t ruin your reputation.
+Roger:	Don't worry. I didn't ruin your reputation.
 Carol:	I understand you live on Electric Avenue.
-Linda:	Yes, that’s right.
+Linda:	Yes, that's right.
 Carol:	I used to live there five years ago. I loved going to Sullivan Park. In the summer, people would have picnics there.
 Linda:	Not anymore. Unfortunately, the area is becoming more and more dangerous. 
 Carol:	Really?
-Linda:	Yes, there’s a lot of crime now:	carjackings, muggings, you name it. Even gangs are moving in.
-Carol:	That’s too bad. When I was living there, it was a really nice neighborhood.
+Linda:	Yes, there's a lot of crime now:	carjackings, muggings, you name it. Even gangs are moving in.
+Carol:	That's too bad. When I was living there, it was a really nice neighborhood.
 Linda:	Just last week when I was jogging someone broke into my apartment.
 Carol:	Did they take anything?
 Linda:	No, they were probably scared away by a neighbor.
@@ -424,55 +424,55 @@ Linda:	Actually, I was thinking about it.
 
 Traffic
 John:	I hate driving during rush hour.
-Sharon:	I know, but we have to be at work at nine o’clock sharp.
-John:	And so do a lot of other people. This traffic is bumper to bumper. We’re going to be late.
-Sharon:	Look, there’s an accident ahead. How about getting off the freeway?
+Sharon:	I know, but we have to be at work at nine o'clock sharp.
+John:	And so do a lot of other people. This traffic is bumper to bumper. We're going to be late.
+Sharon:	Look, there's an accident ahead. How about getting off the freeway?
 John:	Good idea. There might be less traffic on the streets.
-Sharon:	Watch out! You just cut off the car behind you, and you didn’t even use your blinker. 
-John:	Sorry. I usually don’t drive as recklessly as I am today. 
+Sharon:	Watch out! You just cut off the car behind you, and you didn't even use your blinker. 
+John:	Sorry. I usually don't drive as recklessly as I am today. 
 Sharon:	I hope not.
-John:	I’m sure we’ll go a little faster on the streets. But let me tell you, tomorrow I’ll take the train.  
+John:	I'm sure we'll go a little faster on the streets. But let me tell you, tomorrow I'll take the train.  
 Sharon:	Me too. How about some music?
-John:	Sure. I brought more tapes today. They’re in the glove compartment.
+John:	Sure. I brought more tapes today. They're in the glove compartment.
 
 In the hotel
 David:	This is room two-O-nine.
 Manager:	Yes, how may I help you, sir?
 David:	I would like another room.
 Manager:	Is there a problem?
-David:	Well, the shower in my room doesn’t work.
-Manager:	I’m sorry. I don’t have any other rooms available at the moment. But I will send someone to take a look at your shower.
+David:	Well, the shower in my room doesn't work.
+Manager:	I'm sorry. I don't have any other rooms available at the moment. But I will send someone to take a look at your shower.
 David:	How soon will that be? 
 Manager:	It might be about an hour. 
-David:	That’s unacceptable. I have an appointment in an hour, and I need to take a shower first.
-Manager:	I’m sorry, sir. If I could, I would help you. 
+David:	That's unacceptable. I have an appointment in an hour, and I need to take a shower first.
+Manager:	I'm sorry, sir. If I could, I would help you. 
 David:	So, what do you suggest I do?
-Manager:	Well, in the meantime, you could enjoy the complimentary breakfast that we’ll send to your room.
+Manager:	Well, in the meantime, you could enjoy the complimentary breakfast that we'll send to your room.
 David:	This will hardly take care of the problem, but thanks. And make sure my shower is fixed as soon as possible.
-Manager:	Of course. I’ll continue to look for another room for you as well. And sorry for the inconvenience.
+Manager:	Of course. I'll continue to look for another room for you as well. And sorry for the inconvenience.
 
 Getting things fixed
 Tenant:	Hi, Mrs. Rogers. This is Steve, your tenant in apartment thirteen.
-Mrs. Rogers:	Hi, Steve. I haven’t seen you for a long time.
-Tenant:	Well, I’ve been busy.
+Mrs. Rogers:	Hi, Steve. I haven't seen you for a long time.
+Tenant:	Well, I've been busy.
 Mrs. Rogers:	What can I do for you?
 Tenant:	There are some problems in the apartment. The faucet in the kitchen is leaking.
-Mrs. Rogers:	OK. I’ll send the plumber tomorrow to take a look at it. Anything else?
-Tenant:	Yes. The heater isn’t working well. 
-Mrs. Rogers:	They still haven’t fixed it? I sent someone to look at it last week. 
+Mrs. Rogers:	OK. I'll send the plumber tomorrow to take a look at it. Anything else?
+Tenant:	Yes. The heater isn't working well. 
+Mrs. Rogers:	They still haven't fixed it? I sent someone to look at it last week. 
 Tenant:	I know.
-Mrs. Rogers:	What’s wrong with it now?
+Mrs. Rogers:	What's wrong with it now?
 Tenant:	Well, it makes a lot of noise, and we only get a little heat.
-Mrs. Rogers:	They should have fixed it the first time. I’ll call them again.
-Tenant:	Perfect. I’ll be here.
+Mrs. Rogers:	They should have fixed it the first time. I'll call them again.
+Tenant:	Perfect. I'll be here.
 
 Settling down
-Tony:	Hey, everybody! I’d like to propose a toast to our friend Jerry! He’s getting married tomorrow, and I wanna wish him all the best.
-Jerry:	Thanks, guys. I can’t believe this is finally happening. I have a great job and soon I’ll have an amazing wife. And we’ve recently bought a house. I think I’ve just fulfilled my dreams. 
-Tony:	Well, let’s hope you don’t have a rude awakening.
-Jerry:	You’re all just jealous.
-Tony:	Well, you’re right and we’re all happy for you, buddy. Actually, I have something to confess.
-Jerry:	What’s the matter?
+Tony:	Hey, everybody! I'd like to propose a toast to our friend Jerry! He's getting married tomorrow, and I wanna wish him all the best.
+Jerry:	Thanks, guys. I can't believe this is finally happening. I have a great job and soon I'll have an amazing wife. And we've recently bought a house. I think I've just fulfilled my dreams. 
+Tony:	Well, let's hope you don't have a rude awakening.
+Jerry:	You're all just jealous.
+Tony:	Well, you're right and we're all happy for you, buddy. Actually, I have something to confess.
+Jerry:	What's the matter?
 Tony:	Well, I proposed to Gina. 
 Jerry:	And? 
 Tony:	We got engaged yesterday.
@@ -482,149 +482,149 @@ Thirty
 Jill:	Wow! That lasagna was delicious. 
 Ken:	Thank you. Does anybody want dessert? 
 Sandy:	Yeah, ice cream sounds good to me.
-Jill:	No, thanks. I’ve been gaining too much weight lately.
-Sandy:	Oh, now you’re making me feel guilty. 
-Ken:	OK. Who’s going to wash the dishes?
-Jill:	Not me. I’ve been cleaning the bathroom every weekend. I even scrubbed the bathtub really well. 
-Sandy:	It’s not my turn. I’ve been dusting the furniture for the last three months. Besides, I vacuumed yesterday. 
-Ken:	Well, I just cooked dinner. I’m not going to do the dishes also.
+Jill:	No, thanks. I've been gaining too much weight lately.
+Sandy:	Oh, now you're making me feel guilty. 
+Ken:	OK. Who's going to wash the dishes?
+Jill:	Not me. I've been cleaning the bathroom every weekend. I even scrubbed the bathtub really well. 
+Sandy:	It's not my turn. I've been dusting the furniture for the last three months. Besides, I vacuumed yesterday. 
+Ken:	Well, I just cooked dinner. I'm not going to do the dishes also.
 Jill:	OK, OK. Sandy and I will do them together.
-Sandy:	Fine. You wash and I’ll dry.
+Sandy:	Fine. You wash and I'll dry.
 
 Summer in the USA
 David:	John, Mary, you made it. Better late than never. 
 John:	Well, the directions you gave me were very confusing.
 David:	I apologize.  Come on, taste the hors d'oeuvres over here.
-Mary:	Mmm, they’re delicious. The person who made them must be a professional.
+Mary:	Mmm, they're delicious. The person who made them must be a professional.
 David:	My wife Jessica prepared them.
 John:	Where is she, anyway?
 David:	She went to pick up Tommy from summer camp.
 John:	Hey, is it the same one that we went to?
 David:	Yes. Remember our swimming coach?
-John:	Of course. He’s the one who taught me how to swim. Have you seen him lately?
-David:	He’s the director now.
-John:	Wow. He’s moving up in the world.
+John:	Of course. He's the one who taught me how to swim. Have you seen him lately?
+David:	He's the director now.
+John:	Wow. He's moving up in the world.
 Mary:	Is he the one whose son won the swimming competition last year?
-John:	Yeah, that’s him.
+John:	Yeah, that's him.
 David:	OK. The food is ready. Here are the delicious ribs that I promised you.
-Mary:	I’m so hungry.
+Mary:	I'm so hungry.
 
 Politics and Democracy
 Bob:	Have you been following the presidential campaign this year?
 Chris:	More or less. I watched the debate last night.
 Martha:	Me too. I like the Republican candidate.
-Bob:	Really, he’s too conservative for me. I know he has gone up in the polls lately, but I think he lost the debate last night.
-Chris:	I don’t think so. As usual, he showed that he’s well informed and that he’s a terrific speaker.
-Martha:	Besides, he has a lot of experience in Washington, D.C. where he’s very well respected.  He’s a former senator.
+Bob:	Really, he's too conservative for me. I know he has gone up in the polls lately, but I think he lost the debate last night.
+Chris:	I don't think so. As usual, he showed that he's well informed and that he's a terrific speaker.
+Martha:	Besides, he has a lot of experience in Washington, D.C. where he's very well respected.  He's a former senator.
 Bob:	Well, I think that the Democrats have a better platform.
-Chris:	I haven’t made up my mind yet. I still don’t know who to vote for.
+Chris:	I haven't made up my mind yet. I still don't know who to vote for.
 
 Traveling abroad
 John:	Hi. I was supposed to pick up my tickets today.
 Agent:	Yes. I remember. Please take a seat.
 John:	Were you able to get me a discount after all?
 Agent:	Yes. I got ten percent off for you.	 
-John:	That’s good news.
+John:	That's good news.
 Agent:	OK. Here are your cruise vouchers, your plane tickets, and a complete itinerary.
 John:	Is that everything?
 Agent:	Well, you know you have to get a passport, right?
 John:	Yes. I went to the post office,	but it was closed.
-Agent:	Well, you really ought to go to the Federal building directly. It’ll be faster.
-John:	Thanks for the tip, but I’d rather wait for the post office to open. The Federal building is all the way downtown. 
+Agent:	Well, you really ought to go to the Federal building directly. It'll be faster.
+John:	Thanks for the tip, but I'd rather wait for the post office to open. The Federal building is all the way downtown. 
 Agent:	Yes, but you might not get it in time. Is there anything else I can do for you? 
 John:	No, thanks.
 Agent:	Well, have a great trip.
 
 The media and communications
-Lisa:	Let me flip through the channels. I’m not sure what’s on tonight.
-Chris:	Why didn’t you buy the TV guide?
+Lisa:	Let me flip through the channels. I'm not sure what's on tonight.
+Chris:	Why didn't you buy the TV guide?
 Lisa:	When I got to the store they had already sold every single copy.
-Chris:	Well, I know the sports channel is going to televise the boxing match live. It’ll be broadcast all over the world. 
-Lisa:	Let’s see what else is on.
+Chris:	Well, I know the sports channel is going to televise the boxing match live. It'll be broadcast all over the world. 
+Lisa:	Let's see what else is on.
 Chris:	Wait! Go back to the news.
 Lisa:	No, the news is so depressing.
 Chris:	What are you looking for?
 Lisa:	A sitcom or a movie.
-Chris:	Although, sitcoms are OK, I’d rather watch a sport event or music videos on MTV any day. Give me the remote control.
+Chris:	Although, sitcoms are OK, I'd rather watch a sport event or music videos on MTV any day. Give me the remote control.
 Lisa:	No way.
-Chris:	Fine. While you watch TV all by yourself, I’ll go read the sports section of the newspaper.	 	
+Chris:	Fine. While you watch TV all by yourself, I'll go read the sports section of the newspaper.	 	
 
 Bargaining
 Jessica:	Hello! Take a look around. Everything is in good condition. 
 Peter:	How much is this reclining chair?
-Jessica:	It was a hundred, but I’ll give it to you for eighty. 
-Peter:	That’s a bit much. Maybe I’ll come back this afternoon.
-Jessica:	Well, a lot more people will be stopping by later. By this afternoon I’ll probably have sold it.
-Peter:	What’s your lowest price?
+Jessica:	It was a hundred, but I'll give it to you for eighty. 
+Peter:	That's a bit much. Maybe I'll come back this afternoon.
+Jessica:	Well, a lot more people will be stopping by later. By this afternoon I'll probably have sold it.
+Peter:	What's your lowest price?
 Jessica:	Make me an offer.
-Peter:	I’ll give you fifty.
-Jessica:	No way. I can’t go lower then seventy-five
+Peter:	I'll give you fifty.
+Jessica:	No way. I can't go lower then seventy-five
 Peter:	How about sixty-five?
-Jessica:	Fine. You’ve got yourself a deal. And come back soon. We’ll be selling stuff every weekend.
+Jessica:	Fine. You've got yourself a deal. And come back soon. We'll be selling stuff every weekend.
 Peter:	Yes, maybe I will.
 
 Cultural Events
 Claudia:	Hi, Sandy. How was your thanksgiving?
-Sandy:	Wonderful. We all went to my parents’ new house.
+Sandy:	Wonderful. We all went to my parents' new house.
 Claudia:	Is that the one near the freeway that was built last year?
 Sandy:	Yes! Anyway, the turkey was all ready when I got there. But my favorite part is always the stuffing and the mashed potatoes. The pumpkin pie was also fantastic, naturally, since it was made by yours truly. We really pigged out.
 Claudia:	Who else was there? 
 Sandy:	My brother Tony. He and his friends were watching the football game.
 Claudia:	Did he finally get his hair cut?
 Sandy:	Yes. I was surprised.
-Claudia:	Well, I went out to eat with my daughter. My oven wasn’t working.
-Sandy:	That’s too bad.
-Claudia:	Actually, it was quite nice. At least I didn’t have to do all the cooking.	 
+Claudia:	Well, I went out to eat with my daughter. My oven wasn't working.
+Sandy:	That's too bad.
+Claudia:	Actually, it was quite nice. At least I didn't have to do all the cooking.	 
 Sandy:	Tell me, did you get your oven fixed?
-Claudia:	No, not yet. It’ll be repaired next week.
+Claudia:	No, not yet. It'll be repaired next week.
 
 Services
 Mechanic:	Good morning! What seems to be the problem?
-Emily:	Well, my car stopped all of a sudden, and I couldn’t get it started again. So, I had it towed here.	
-Mechanic:	If you leave it here, I’ll try to check it later.
-Emily:	Is there any way you could work on it right away? I’m late for work as it is.
-Mechanic:	Well, if you give me a minute, I’ll see what I can do.
+Emily:	Well, my car stopped all of a sudden, and I couldn't get it started again. So, I had it towed here.	
+Mechanic:	If you leave it here, I'll try to check it later.
+Emily:	Is there any way you could work on it right away? I'm late for work as it is.
+Mechanic:	Well, if you give me a minute, I'll see what I can do.
 Emily:	Thanks so much.
-Mechanic:	I jump started your car and it’s running fine. But you’ll need a new battery soon.	
+Mechanic:	I jump started your car and it's running fine. But you'll need a new battery soon.	
 Emily:	Not today. I need to get to work.
-Mechanic:	Suit yourself. But if you don’t get a battery soon, you’ll have the same problem again.
+Mechanic:	Suit yourself. But if you don't get a battery soon, you'll have the same problem again.
 
 Music
 Cindy:	What a great band!
 Edward:	Yes. The drummer was great.
 Cindy:	I thought the saxophone player was outstanding.
-Edward:	You know, I could’ve been a great musician myself if I had pursued it more seriously. 
+Edward:	You know, I could've been a great musician myself if I had pursued it more seriously. 
 Peter:	Really? What instrument did you play?
 Edward:	The piano. I was really into rock and roll.
 Peter:	So, how come you never pursued a career in music?
-Edward:	Well. I was afraid the work wouldn’t be steady enough.
+Edward:	Well. I was afraid the work wouldn't be steady enough.
 Cindy:	What about now?
 Edward:	If I had more time I would pursue it as a hobby.
 Peter:	I think you should.
-Edward:	I would’ve liked to have been able to keep up with it.
+Edward:	I would've liked to have been able to keep up with it.
 Peter:	I know what you mean. I wish I had continued playing too.
-Edward:	There’s always tomorrow.
+Edward:	There's always tomorrow.
 
 Cultural diversity in the USA
-Beth:	Shannon told me you’re sending Jessica to an after-school Chinese language program.
+Beth:	Shannon told me you're sending Jessica to an after-school Chinese language program.
 Wayne:	Yes, we want to make sure that she has a chance to use Chinese on a daily basis.
-Beth:	I think it’s great that you’re doing this. There are several languages in my background, but none of them were passed on to me. 
+Beth:	I think it's great that you're doing this. There are several languages in my background, but none of them were passed on to me. 
 Wayne:	Really? What languages?
-Beth:	Well, my mother’s parents were English and German and I think my father’s parents were from Mexico.
-Wayne:	You’re not sure?
-Beth:	No! I asked my dad where his family came from and he said he didn’t really know. In fact, I’m not even sure what his last name used to be before his family changed it. I know his father spoke Spanish but he wouldn’t teach it to his kids because it might inhibit their English. 
+Beth:	Well, my mother's parents were English and German and I think my father's parents were from Mexico.
+Wayne:	You're not sure?
+Beth:	No! I asked my dad where his family came from and he said he didn't really know. In fact, I'm not even sure what his last name used to be before his family changed it. I know his father spoke Spanish but he wouldn't teach it to his kids because it might inhibit their English. 
 Wayne:	What a shame!
-Beth:	I think so, too. I wish I had learned another language as a child. It’s more difficult as an adult.
+Beth:	I think so, too. I wish I had learned another language as a child. It's more difficult as an adult.
 
 The Hollywood craze
 Emily:	Did you hear the latest scandal about Elizabeth Taylor?	
 Karen:	No, what is it?
-Emily:	There’s a rumor that she’s actually married to two people.
+Emily:	There's a rumor that she's actually married to two people.
 Frank:	Give me a break! Where do you get these things?
 Emily:	From the tabloids. I read it yesterday, when I was in line at the market.
-Frank:	If I were you, I wouldn’t believe that sensationalist trash. Those magazines are not exactly the most reliable source.
+Frank:	If I were you, I wouldn't believe that sensationalist trash. Those magazines are not exactly the most reliable source.
 Karen:	Have you seen the previews for her new movie?
-Frank:	Yes. It’s nothing to write home about.
+Frank:	Yes. It's nothing to write home about.
 Emily:	But the critics said that it was a real tearjerker.
-Karen:	Well, the movie’s coming out next week. I suggest we go see it and judge for ourselves. 
-Emily:	Maybe. I’ll get back to you.
+Karen:	Well, the movie's coming out next week. I suggest we go see it and judge for ourselves. 
+Emily:	Maybe. I'll get back to you.

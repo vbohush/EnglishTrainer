@@ -7,14 +7,11 @@ public class Lesson {
 	private ArrayList<String> list = new ArrayList<String>();
 	private String name;
 	private int index = 0;
-	private int numberOfErrors = 0;
 	private boolean caseSensitive;
 	private boolean strongCheck;
 	private int lessonNumber;
-	private int tipUsed = 0;
-	private int skipped = 0;
-	private boolean isErrorLine = false;
-	private boolean isUsedTipLine = false;
+	private int correctLines = 0;
+	private boolean isCorrectLine = true;
 	
 	public void setCaseSensitive(boolean caseSensitive) {
 		this.caseSensitive = caseSensitive;
@@ -32,24 +29,16 @@ public class Lesson {
 		return lessonNumber;
 	}
 	
-	public int getNumberOfErrors() {
-		return numberOfErrors;
+	public int getNumberOfCorrectLines() {
+		return correctLines;
 	}
 	
 	public int getNumberOfLines() {
 		return list.size();
 	}
 	
-	public int getNumberOfSkippedLines() {
-		return skipped;
-	}
-	
 	public int getNumberOfGuessedLines() {
 		return index;
-	}
-
-	public int getNumberOfUsedTips() {
-		return tipUsed;
 	}
 	
 	public Lesson(int lessonNumber) {
@@ -74,19 +63,14 @@ public class Lesson {
 	
 	public void reset() {
 		index = 0;
-		numberOfErrors = 0;
-		tipUsed = 0;
-		skipped = 0;
+		correctLines = 0;
 	}
 	
 	public String getTip() {
 		if(index >= list.size()) {
-			return null;
+			return "";
 		} else {
-			if(!isUsedTipLine) {
-				isUsedTipLine = true;
-				tipUsed++;
-			}
+			isCorrectLine = false;
 			String strTip = list.get(index);
 			strTip = strTip.substring(strTip.indexOf(":") + 2, strTip.length());
 			return strTip;
@@ -136,23 +120,21 @@ public class Lesson {
 		}
 		if(str1.equals(str2)) {
 			index++;
-			isErrorLine = false;
-			isUsedTipLine = false;
+			if(isCorrectLine) {
+				correctLines++;
+			} else {
+				isCorrectLine = true;
+			}
 			return true;
 		} else {
-			if(!isErrorLine) {
-				numberOfErrors++;
-				isErrorLine = true;
-			}
+			isCorrectLine = false;
 			return false;
 		}
 	}
 	
 	public void skip() {
 		index++;
-		skipped++;
-		isErrorLine = false;
-		isUsedTipLine = false;
+		isCorrectLine = true;
 	}
 	
 	@Override

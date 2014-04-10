@@ -67,7 +67,7 @@ public class Data {
 			 + "Pat:	And it's comfortable too. Is it too short, though?\n"
 			 + "Sharon:	No. You look beautiful, really.\n"
 			 + "Pat:	Thanks. Excuse me, how much is this dress?\n"
-			 + "Clerk:	You're lucky. All women's fashions are on sale today. Let's see… this dress is twenty five percent off.\n"
+			 + "Clerk:	You're lucky. All women's fashions are on sale today. Let's see... this dress is twenty five percent off.\n"
 			 + "Pat:	I'm convinced. I even have shoes to match.\n"
 			 + "Sharon:	That's reason enough right there.\n",
 
@@ -124,7 +124,7 @@ public class Data {
 			 + "Diana:	OK! See you there!\n",
 
 			"Ongoing activities\n"
-			 + "Camille:	Fabiola, Rick… What are you guys doing here?\n"
+			 + "Camille:	Fabiola, Rick... What are you guys doing here?\n"
 			 + "Fabiola:	Camille, what a surprise!\n"
 			 + "Rick:	Hi. We're going to the mall. How about you?\n"
 			 + "Camille:	I'm going to the hardware store. I need to buy some paint, rollers, and brushes.\n"
@@ -147,7 +147,7 @@ public class Data {
 			 + "Jose:	I'm ready. Let's go. So, how is practice going?\n"
 			 + "David:	Well, it's tough. We have to build endurance to run with the ball, tackle and take hits.\n"
 			 + "Jose:	But isn't the most important thing to kick the ball?\n"
-			 + "David:	We may be talking about two different sports. I play what we call ‘football' here in the United States, not soccer.\n"
+			 + "David:	We may be talking about two different sports. I play what we call 'football' here in the United States, not soccer.\n"
 			 + "Jose:	Oh!\n"
 			 + "David:	We don't kick the ball very much. We have to carry it with our hands.\n"
 			 + "Jose:	I see.\n"
@@ -293,7 +293,7 @@ public class Data {
 			 + "Bob:	Congratulations. This will be a very lonely holiday season for me.\n"
 			 + "Ingrid:	I thought your brother and his wife were coming to visit you for Hanukkah.\n"
 			 + "Bob:	No, I just spoke to them. They're just too busy to travel this year.\n"
-			 + "Ingrid:	Well, if you want to celebrate Christmas with us…\n"
+			 + "Ingrid:	Well, if you want to celebrate Christmas with us...\n"
 			 + "Bob:	Are you doing the whole spiel?\n"
 			 + "Ingrid:	Of course. Without a Christmas tree, Christmas carols, cookies, and presents under the tree, Christmas just isn't the same for me.\n"
 			 + "Bob:	But I don't have any presents to give you.\n"
@@ -366,7 +366,7 @@ public class Data {
 			 + "Principal:	We will do what we can to help your son make the transition to his new school. I see he finished fifth grade as an honor student.\n"
 			 + "Mother:	Yes, we're very proud of him. We're just worried that the curriculum is so different here that he will have trouble catching up. Can you recommend a tutor?\n"
 			 + "Principal:	Sure.\n"
-			 + "Mother:	We want to help him ourselves, but both my husband and I are working…\n"
+			 + "Mother:	We want to help him ourselves, but both my husband and I are working...\n"
 			 + "Principal:	Don't worry, your son may not have any trouble catching up by himself. And if necessary, we will set him up with a tutor. I myself will act as his advisor and watch his progress closely. Let's talk to each other after the first week of classes.\n"
 			 + "Mother:	Thanks. \n",
 
@@ -381,7 +381,7 @@ public class Data {
 			 + "Elsa:	Oh, yes. Have you decided on a date for your wedding?\n"
 			 + "Linda:	May twenty fifth.\n"
 			 + "Elsa:	What's the matter, Peter? You're suddenly pale.\n"
-			 + "Peter:	May twenty fifth. That's… so soon.\n"
+			 + "Peter:	May twenty fifth. That's... so soon.\n"
 			 + "Linda:	Hey, are you getting cold feet?\n"
 			 + "Peter:	No, I just didn't realize it would be so soon.\n"
 			 + "Linda:	Neither did I.\n"

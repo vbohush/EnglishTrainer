@@ -82,7 +82,7 @@ public class Data {
 			 + "Waitress:	Just a minute.\n"
 			 + "Jim:	What's the weather forecast for today?\n"
 			 + "An:	Chance of snow and temperatures in the teens until Tuesday. Oh, no! How can you stand Boston winters?\n"
-			 + "Jim:	Good question. I bet you miss Vietnam.	What's the weather like there now?\n"
+			 + "Jim:	Good question. I bet you miss Vietnam. What's the weather like there now?\n"
 			 + "An:	Around seventy degrees. It's warm in January, but it rains a lot.\n"
 			 + "Jim:	Well, I prefer rain to snow and ice.\n"
 			 + "Waitress:	Here's your coffee and tea. I hope it warms you up!  \n",

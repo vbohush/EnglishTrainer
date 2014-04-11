@@ -64,6 +64,7 @@ public class Lesson {
 	public void reset() {
 		index = 0;
 		correctLines = 0;
+		isCorrectLine = true;
 	}
 	
 	public String getTip() {

@@ -10,10 +10,10 @@ import java.awt.event.ItemListener;
 
 import javax.swing.JApplet;
 import javax.swing.JButton;
+import javax.swing.JCheckBox;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
@@ -27,12 +27,10 @@ public class English extends JApplet {
 	private int currentLesson = 0;
 	private Lesson[] lessons = new Lesson[Data.getNumberOfLessons()];
 	private JTextArea ftaText;
-	private JLabel jLabel1;
-	private JLabel jLabel2;
-	private JLabel jLabel3;
-	private JButton jbtnOk = new JButton("Ok");
-	private JButton jbtnSkip = new JButton("Skip");
-	private JButton jbtnTip = new JButton("Get Tip");
+	private JTextField jtfTip= new JTextField("");
+	private JLabel jlblInformation;
+	private JButton jbtnCheck = new JButton("Check");
+	private JCheckBox jcbShowTips = new JCheckBox("Tips", true);
 	private JButton jbtnReset = new JButton("Restart");
 	private JComboBox<Lesson> jcbLesson;
 	
@@ -96,93 +94,72 @@ public class English extends JApplet {
 		ftaText.setWrapStyleWord(true);
 		jpMain.add(ftaText, BorderLayout.CENTER);
 		
-		JPanel jpAnswer = new JPanel(new BorderLayout(5, 5));
-		jtfInputString.setFont(new Font("Dialog", Font.PLAIN, 16));
-		jpAnswer.add(jtfInputString, BorderLayout.CENTER);
-		JPanel jpControl = new JPanel(new GridLayout(1, 4, 5, 5));
-		Font buttonFont = new Font("Dialog", Font.BOLD, 12); 
-		jbtnOk.setFont(buttonFont);
-		jpControl.add(jbtnOk);
-		jbtnSkip.setFont(buttonFont);
-		jpControl.add(jbtnSkip);		
-		jbtnTip.setFont(buttonFont);
-		jpControl.add(jbtnTip);		
-		jbtnReset.setFont(buttonFont);
-		jpControl.add(jbtnReset);
-		jpAnswer.add(jpControl, BorderLayout.EAST);
+		JPanel jpControl = new JPanel(new BorderLayout(5, 5));
+		JPanel jpAnswer = new JPanel(new GridLayout(2, 1, 5, 5));
+		JPanel jpConfig = new JPanel(new GridLayout(2, 2, 5, 5));
+
+		Font inputFont = new Font("Monospaced", Font.PLAIN, 14);		
+		jtfInputString.setFont(inputFont);
+		jtfTip.setFont(inputFont);
+		jtfTip.setEditable(false);
+		jtfTip.setText(lessons[currentLesson].getTip());
+		jpAnswer.add(jtfTip);
+		jpAnswer.add(jtfInputString);
+		jpControl.add(jpAnswer, BorderLayout.CENTER);
 		
-		JPanel jpStatistic = new JPanel(new GridLayout(1, 3, 5, 5));
-		jLabel1 = new JLabel("Total Lines: " + lessons[currentLesson].getNumberOfLines());
-		jLabel2 = new JLabel("Finished Lines: " + lessons[currentLesson].getNumberOfGuessedLines());
-		jLabel3 = new JLabel("Correct Lines: " + lessons[currentLesson].getNumberOfCorrectLines());
-		Font labelFont = new Font("Dialog", Font.BOLD, 14); 
-		jLabel1.setFont(labelFont);
-		jLabel2.setFont(labelFont);
-		jLabel3.setFont(labelFont);
-		jLabel1.setHorizontalAlignment(SwingConstants.CENTER);
-		jLabel2.setHorizontalAlignment(SwingConstants.CENTER);
-		jLabel3.setHorizontalAlignment(SwingConstants.CENTER);
-		jpStatistic.add(jLabel1);
-		jpStatistic.add(jLabel2);
-		jpStatistic.add(jLabel3);
-		jpAnswer.add(jpStatistic, BorderLayout.NORTH);
+		jlblInformation = new JLabel(" " + lessons[currentLesson].getNumberOfGuessedLines() + " / " + lessons[currentLesson].getNumberOfLines() + " ");
+		jlblInformation.setHorizontalAlignment(SwingConstants.CENTER);
+		jpConfig.add(jlblInformation);
+		jcbShowTips.setHorizontalAlignment(SwingConstants.CENTER);
+		jpConfig.add(jcbShowTips);
+		jpConfig.add(jbtnCheck);
+		jpConfig.add(jbtnReset);	
+		jpControl.add(jpConfig, BorderLayout.EAST);
 		
-		jpMain.add(jpAnswer, BorderLayout.SOUTH);
+		jpMain.add(jpControl, BorderLayout.SOUTH);
 		jtfInputString.requestFocusInWindow();
 		
 		jpBorder.add(jpMain, BorderLayout.CENTER);
 		add(jpBorder);
+
 		
-		jbtnSkip.addActionListener(new ActionListener() {			
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				lessons[currentLesson].skip();
-				ftaText.setText(lessons[currentLesson].getGuessedText());
-				jtfInputString.setText("");
-				if(lessons[currentLesson].isFinish()) {
-					jtfInputString.setEditable(false);
-					jbtnOk.setEnabled(false);
-					jbtnSkip.setEnabled(false);
-					jbtnTip.setEnabled(false);
-				}
-				jtfInputString.requestFocus();
-				jLabel1.setText("Total lines: " + lessons[currentLesson].getNumberOfLines());
-				jLabel2.setText("Finished lines: " + lessons[currentLesson].getNumberOfGuessedLines());
-				jLabel3.setText("Correct Lines: " + lessons[currentLesson].getNumberOfCorrectLines());
-			}
-		});
 		
 		ActionListener actionListener = new ActionListener() {			
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				if(jtfInputString.getText().equals("")) {
-					jtfInputString.requestFocus();
-					return;
-				}
-				if(lessons[currentLesson].isValid(jtfInputString.getText())) {
+				if(lessons[currentLesson].isValid(jtfInputString.getText()) || jtfInputString.getText().equals("")) {
+					if(jtfInputString.getText().equals("")) {
+						lessons[currentLesson].skip();
+					}
 					ftaText.setText(lessons[currentLesson].getGuessedText());
 					jtfInputString.setText("");
 					if(lessons[currentLesson].isFinish()) {
 						jtfInputString.setEditable(false);
-						jbtnOk.setEnabled(false);
-						jbtnSkip.setEnabled(false);
-						jbtnTip.setEnabled(false);
+						jbtnCheck.setEnabled(false);
+						jcbShowTips.setEnabled(false);
 					}
+					jtfInputString.requestFocus();
+					if(jcbShowTips.isSelected()) {
+						jtfTip.setText(lessons[currentLesson].getTip());
+					} else {
+						jtfTip.setText("");
+					}
+					jlblInformation.setText(" " + lessons[currentLesson].getNumberOfGuessedLines() + " / " + lessons[currentLesson].getNumberOfLines() + " ");
 				}
-				jtfInputString.requestFocus();
-				jLabel1.setText("Total lines: " + lessons[currentLesson].getNumberOfLines());
-				jLabel2.setText("Finished lines: " + lessons[currentLesson].getNumberOfGuessedLines());
-				jLabel3.setText("Correct Lines: " + lessons[currentLesson].getNumberOfCorrectLines());
 			}
-		};
-		
-		jbtnOk.addActionListener(actionListener);
+		};		
+		jbtnCheck.addActionListener(actionListener);
 		jtfInputString.addActionListener(actionListener);
 		
-		jbtnTip.addActionListener(new ActionListener() {			
+		jcbShowTips.addActionListener(new ActionListener() {
+			
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				JOptionPane.showMessageDialog(null, lessons[currentLesson].getTip(), "Tip", JOptionPane.INFORMATION_MESSAGE);
+				if(jcbShowTips.isSelected()) {
+					jtfTip.setText(lessons[currentLesson].getTip());
+				} else {
+					jtfTip.setText("");
+				}
 				jtfInputString.requestFocus();
 			}
 		});
@@ -198,15 +175,17 @@ public class English extends JApplet {
 	
 	private void restart() {
 		lessons[currentLesson].reset();
-		jLabel1.setText("Total lines: " + lessons[currentLesson].getNumberOfLines());
-		jLabel2.setText("Finished lines: " + lessons[currentLesson].getNumberOfGuessedLines());
-		jLabel3.setText("Correct Lines: " + lessons[currentLesson].getNumberOfCorrectLines());
+		jlblInformation.setText(" " + lessons[currentLesson].getNumberOfGuessedLines() + " / " + lessons[currentLesson].getNumberOfLines() + " ");
 		ftaText.setText(lessons[currentLesson].getGuessedText());
 		jtfInputString.setText("");
 		jtfInputString.setEditable(true);
-		jbtnOk.setEnabled(true);
-		jbtnSkip.setEnabled(true);
-		jbtnTip.setEnabled(true);
+		jbtnCheck.setEnabled(true);
+		jcbShowTips.setEnabled(true);
+		if(jcbShowTips.isSelected()) {
+			jtfTip.setText(lessons[currentLesson].getTip());
+		} else {
+			jtfTip.setText("");
+		}
 		jtfInputString.requestFocus();
 	}
 

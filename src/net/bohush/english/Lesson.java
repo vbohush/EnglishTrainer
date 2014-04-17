@@ -10,8 +10,6 @@ public class Lesson {
 	private boolean caseSensitive;
 	private boolean strongCheck;
 	private int lessonNumber;
-	private int correctLines = 0;
-	private boolean isCorrectLine = true;
 	
 	public void setCaseSensitive(boolean caseSensitive) {
 		this.caseSensitive = caseSensitive;
@@ -27,10 +25,6 @@ public class Lesson {
 	
 	public int getLessonNumber() {
 		return lessonNumber;
-	}
-	
-	public int getNumberOfCorrectLines() {
-		return correctLines;
 	}
 	
 	public int getNumberOfLines() {
@@ -63,15 +57,12 @@ public class Lesson {
 	
 	public void reset() {
 		index = 0;
-		correctLines = 0;
-		isCorrectLine = true;
 	}
 	
 	public String getTip() {
 		if(index >= list.size()) {
 			return "";
 		} else {
-			isCorrectLine = false;
 			String strTip = list.get(index);
 			strTip = strTip.substring(strTip.indexOf(":") + 2, strTip.length());
 			return strTip;
@@ -108,6 +99,9 @@ public class Lesson {
 	}
 	
 	public boolean isValid(String nextLine) {
+		if(isFinish()) {
+			return false;
+		}
 		String str1 = nextLine;
 		String str2 = list.get(index);
 		str2 = str2.substring(str2.indexOf(":") + 2, str2.length());
@@ -121,21 +115,16 @@ public class Lesson {
 		}
 		if(str1.equals(str2)) {
 			index++;
-			if(isCorrectLine) {
-				correctLines++;
-			} else {
-				isCorrectLine = true;
-			}
 			return true;
 		} else {
-			isCorrectLine = false;
 			return false;
 		}
 	}
 	
 	public void skip() {
-		index++;
-		isCorrectLine = true;
+		if(!isFinish()) {
+			index++;
+		}
 	}
 	
 	@Override

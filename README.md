@@ -1,4 +1,4 @@
 english-trainer
 ===============
 
-Run applet http://bohush.net/e
+Run applet http://bohush.net/english/

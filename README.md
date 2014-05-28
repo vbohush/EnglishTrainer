@@ -1,4 +1,7 @@
 english-trainer
 ===============
 
-Run applet http://bohush.net/english/
+Improve your english writing skills
+
+Download binary .jar: http://bohush.net/english.jar
+
